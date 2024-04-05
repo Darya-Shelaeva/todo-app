@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="wrap" id="app">
+      <div class="input_block">
+       <input class="input" placeholder="Что нужно сделать?" id="input"/>
+      <input class="checkbox" type="checkbox"/>  
+      </div>
+
+      <div class="wrap_button">
+      <p class="text">0 активных задач</p>
+      <div class="three_button">
+      <button class="button">Все</button>
+      <button class="button">Активные</button>
+      <button class="button">Завершенные</button>
+      </div>
+
+      <button class="button clean">Очистить завершенные</button>
+      </div>
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

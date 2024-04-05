@@ -1,0 +1,44 @@
+.wrap{
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+  background-color: rgb(238, 234, 229);
+}
+.input{
+  width: 150px;
+  border: none;
+  border-radius: 3%;
+  margin: 10px 0 0 20px;
+}
+.input_block{
+  display: flex;
+  flex-direction: column;
+}
+.checkbox{
+  width: 10px;
+  margin: 10px 0 0 20px;
+}
+.wrap_button{
+  display: flex;
+}
+.button{
+  width: auto;
+  height: 30px;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(188, 160, 127);
+}
+.three_button{
+  display: flex;
+  margin-left: 300px;
+  gap: 20px;
+}
+.clean{
+  margin-left: 350px;
+}
+.text{
+  margin-left: 20px;
+}
