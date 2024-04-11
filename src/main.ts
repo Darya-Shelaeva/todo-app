@@ -15,6 +15,7 @@ input?.addEventListener("keyup", (event) => {
     toDoElement.appendChild(spanElement);
     toDoList?.appendChild(toDoElement);
     console.log(`${toDoList?.children.length} активных задач`);
+    document.getElementById('input').value = '';
     // activeTodo?.textContent = `${toDoList?.children.length} активных задач`
   }
 });
